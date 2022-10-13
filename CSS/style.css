@@ -8,7 +8,7 @@
 
 body{
     width: 100%;
-    height: 100vw;/*vh*/
+    height: 100vh;
     position: relative;
     display: flex;
 }
@@ -62,12 +62,12 @@ body{
     .sm-product-img-container{
         position: relative;
         margin: .5vw 0;
-        height: 15vw;
+        height: 25vw;
         overflow: hidden;
     }
         .sm-product-img{
             width: 100%;
-            height: 15vw;
+            height: 25vw;
             object-fit: cover;
 
         }
@@ -100,7 +100,7 @@ body{
 
 .right-side{
     width: 80vw;
-    height: 100vw;
+    height: 100vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ body{
 
 .beckdrop-img{
     width: 25vw;
-    height: 100%;
+    height: 85%;
     position: absolute;
     top: 0;
     right: 0;
